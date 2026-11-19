@@ -1,0 +1,25 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#f6f8ff;color:#222}
+.top{background:#0a2a8a;color:#fff;padding:8px;text-align:center;font-size:13px}
+header{background:#fff;padding:15px 5%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,.1)}
+.logo{font-weight:900;color:#0a2a8a;font-size:19px;line-height:1.1;text-decoration:none}
+.logo span{color:#ffcc00;font-size:13px;display:block}
+.back-btn{background:#0a2a8a;color:#fff;padding:8px 16px;border-radius:20px;text-decoration:none;font-size:14px;font-weight:600}
+.form-wrap{max-width:1000px;margin:30px auto;display:flex;flex-wrap:wrap;gap:25px;padding:0 15px}
+.form-left{flex:1;min-width:280px}
+.form-left h1{color:#0a2a8a;font-size:36px}
+.form-left p{margin:15px 0;line-height:1.6;color:#555}
+.form-left ul{list-style:none;margin:20px 0}
+.form-left li{margin:10px 0;font-weight:600}
+.contact-box{background:#fff;padding:20px;border-radius:15px;border-left:5px solid #ffcc00;line-height:1.8;margin-top:20px}
+.form-right{flex:1;min-width:300px;background:#fff;padding:25px;border-radius:20px;box-shadow:0 5px 25px rgba(0,0,0,.08)}
+.form-right label{display:block;font-weight:700;font-size:14px;margin:15px 0 6px;color:#0a2a8a}
+.form-right label:first-child{margin-top:0}
+.form-right input,.form-right select,.form-right textarea{width:100%;padding:12px;border:1.5px solid #ddd;border-radius:10px;font-size:15px;outline:none}
+.form-right input:focus,.form-right select:focus,.form-right textarea:focus{border-color:#0a2a8a}
+.submit-btn{width:100%;background:#25D366;color:#fff;border:none;padding:14px;border-radius:12px;font-size:16px;font-weight:800;cursor:pointer;margin-top:20px}
+.submit-btn:hover{background:#1eb856}
+.note{font-size:12px;text-align:center;color:#777;margin-top:10px}
+.success{display:none;background:#e7ffe9;color:#1a7a2a;padding:12px;border-radius:10px;text-align:center;font-weight:700;margin-top:15px}
+footer{background:#0a2a8a;color:#fff;text-align:center;padding:20px;font-size:13px;margin-top:30px}
+@media(max-width:600px){.form-left h1{font-size:28px}}

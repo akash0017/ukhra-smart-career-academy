@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admission Form | Ukhra Smart Career Academy</title>
+<link rel="stylesheet" href="admission.css">
+</head>
+<body>
+
+<div class="top">Govt. Regd. No. - S0004745 | ISO Certified 9001:2015</div>
+
+<header>
+<a href="index.html" class="logo">UKHRA SMART<br>CAREER ACADEMY <span>★ Learn • Grow • Succeed</span></a>
+<a href="index.html" class="back-btn">← Home</a>
+</header>
+
+<div class="form-wrap">
+<div class="form-left">
+<h1>Admission Form</h1>
+<p>Fill this form and submit. Your details will be sent directly to our WhatsApp. We will call you back to confirm your admission.</p>
+<ul>
+<li>✅ Free Demo Class Available</li>
+<li>✅ No Age Limit</li>
+<li>✅ Govt. Registered & ISO Certified</li>
+</ul>
+<div class="contact-box">
+<b>Direct Contact</b><br>
+📞 9614126284, 9264714430<br>
+📍 M.G. Road, Ukhra, Natun Hattala, Ukhra - 713363
+</div>
+</div>
+
+<div class="form-right">
+<form id="admissionForm">
+<label>Student Full Name *</label>
+<input type="text" id="name" placeholder="e.g. Rahul Kumar" required>
+
+<label>Mobile Number *</label>
+<input type="tel" id="phone" placeholder="Enter 10 Digit Mobile Number" maxlength="10" required>
+
+<label>Class / Age</label>
+<input type="text" id="class" placeholder="e.g. Class 8 / 18 Years">
+
+<label>Select Course *</label>
+<select id="course" required>
+<option value="">-- Select Course --</option>
+<option value="Computer Course">Computer Course</option>
+<option value="Spoken English Course">Spoken English Course</option>
+<option value="Tuition Coaching - Class 1 to 12">Tuition Coaching (Class 1 to 12)</option>
+<option value="Other">Other</option>
+</select>
+
+<label>Message (Optional)</label>
+<textarea id="message" rows="3" placeholder="Write your query here..."></textarea>
+
+<button type="submit" class="submit-btn">Submit & Send on WhatsApp →</button>
+<p class="note">On submit, WhatsApp will open, just press Send.</p>
+</form>
+<p class="success" id="successMsg">✅ Form is ready, opening WhatsApp...</p>
+</div>
+</div>
+
+<footer>© 2026 Ukhra Smart Career Academy | Prop. Sumanta Singha</footer>
+
+<script src="admission.js"></script>
+</body>
+</html>
